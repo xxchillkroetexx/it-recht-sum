@@ -39,7 +39,7 @@ Was ist die Verbindung zwischen ISO und der Gesetzgebung?
 
 
 ## Operational Excellence (OPEX)
-- Mindset der gewisse Prinzipien und Tools umfasst, um eine *Culture of Excellence* im Unternehmen einzuführen.
+- Mindset, das gewisse Prinzipien und Tools umfasst, um eine *Culture of Excellence* im Unternehmen einzuführen.
 - Jeder Mitarbeiter kann den Wertefluss zum Kunden einsehen, dazu beitragen und ihn verbessern
 
 Zielsetzung:
@@ -73,6 +73,8 @@ flowchart LR
 
 ## Standards
 
+(Branchen spezifische Standards nicht klausurrelevant)
+
 | Standard | Icon | Beschreibung |
 | --- | --- | --- | 
 | ISO 27001 | <img src="img/ISO-27001.svg" alt="drawing" width="100"/> | Internationale Norm für Einrichtung, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines dokumentierten Informationssicherheits-Managementsystems |
@@ -86,7 +88,7 @@ flowchart LR
 
 - Geographischer Scope
 - Produktionsstandorte
-- Organisationen
+- nisationen
 - Rollen
 - Verfahren
 - Prozesse
@@ -112,7 +114,7 @@ Soll folgende Aspekte liefern:
 Das Management soll eine Informationssicherheitsrichtlinie einführen, die:
 
 <ol type="a">
-  <li>dem Zweck der organisation angemessen ist</li>
+  <li>dem Zweck der Organisation angemessen ist</li>
   <li>IT Sec. Ziele beinhaltet oder ein Framework hierfür bereitstellt</li>
   <li>Verpflichtungen zur Einhaltung der geforderten Ziele beinhaltet</li>
   <li>Verpflichtungen zur kontinuierlichen Verbesserung des ISMS beinhaltet</li>
@@ -178,11 +180,18 @@ Grundsatz :arrow_right: Bei Bedarf sollten die High-Level Ziele zu spezifischere
 ## CIA Triade
 ![cia triade](img/CIA-triad.png)
 
-Wichtigste IT Schutzziele:
+**Wichtigste IT Schutzziele:**
 
 - Vertraulichkeit: Daten vor unbefugtem Zugriff geschützt :arrow_right: Kompromitierungsbeispiel: Laptop geklaut, Passwort Diebstahl
+    - Erreicht durch Verschlüsslung
 - Integrität: Schutz vor unbemerkter und unberechtigter Manipulation der Daten, Daten sind korrekt :arrow_right:  Kompromitierungsbeispiel: Ransomware → Die Daten werden verändert
+    - Erreicht durch Hashes
 - Verfügbarkeit: Daten sind in vereinbartem Rahmen zugänglich, zeitlich und örtlich :arrow_right: DDoS Angriff
+    - Erreicht durch Redundanz
+
+**(Extra, nicht Teil von CIA)**
+- nonrepudiation: Die Authentizität der Nachricht ist sicher: Man kann sich nicht als jemand anders ausgeben.
+    - Erreicht durch Asymmetrische Kryptographie (Signaturen und Verifikationen)
 
 ## Informationssicherheit Schutzziele
 
