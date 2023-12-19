@@ -27,7 +27,7 @@ Grundsätze Datenschutz:
 | --- | --- | --- |
 | EU | EU-GDPR | 
 | China | Personal Information Pretection Law (PIPL) |
-| Turkey | Tueky Data Protection Law | Wie GDPR |
+| Turkey | Turkey Data Protection Law | Wie GDPR |
 | Brazil | Brazil Data Protection Law | Wie GDPR |
 | Russia | Thai Personal Data Protection Act |
 | USA | | | 
