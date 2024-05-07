@@ -88,7 +88,7 @@ flowchart LR
 
 - Geographischer Scope
 - Produktionsstandorte
-- nisationen
+- Organisationen
 - Rollen
 - Verfahren
 - Prozesse
