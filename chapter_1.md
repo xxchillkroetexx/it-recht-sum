@@ -134,7 +134,7 @@ Formulierung sicherheitsrelevanter Ziele und einer Sicherheitsrichtlinie.
 
 Die IT Sicherheitsziele sollten bei jedem Sicherheitsprozess festgelegt werden.
 
-Folgende Aspekte sollten bei der Entwicklung der Sicherehits Strategie berücksichtigt werden:
+Folgende Aspekte sollten bei der Entwicklung der Sicherheitsstrategie berücksichtigt werden:
 
 - Ziele der Unternehmung oder Rolle der Behörde
 - Rechtliche Anforderungen und Regularien wie z.B. Datenschutz
