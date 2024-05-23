@@ -39,8 +39,8 @@ Das Unternehmen soll einen Plan zum Umgang mit Risiken einführen
 
 ### 6.1 Actions to address risks and opportunities
 
-- InfoSec Management  kann das erwartete Ergbnis erreichen
-- Ungewünschte Effekte verhidner oder minimieren
+- InfoSec Management kann das erwartete Ergebnis erreichen
+- Ungewünschte Effekte verhindern oder minimieren
 - Andauernde Verbesserung umsetzen
 
 ## BSI 200, 8.1 Risk Management, Creating a security Concept :hammer:
@@ -48,7 +48,7 @@ Das Unternehmen soll einen Plan zum Umgang mit Risiken einführen
 - Methodik für Risiko Analyse festlegen
 - Risiken und mögliche Schäden klassifizieren
 - Risiko Analyse
-- Strategie zum Ungang mit Risiken entwickeln
+- Strategie zum Umgang mit Risiken entwickeln
 - Sicherheitsmaßnahmen festlegen
 
 ## Umgang mit Risiken (ISO 31000/ ISO 27005) :hammer:

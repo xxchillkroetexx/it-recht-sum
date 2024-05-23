@@ -181,6 +181,8 @@ Red Team ist eine Gruppe von White-Heads die versucht, die Infrastruktur eines U
 
 Vorteile: Gibt eine gute Übersicht über die Robustheit der Sicherheitsmaßnahmen unter realistischen Bedingungen
 
+Die Sekundär-Teams (Green, Orange, Purple) sind virtuelle Teams, die sich aus den Primär-Teams (Yellow, Red, Blue) zusammensetzen.
+
 ![infosec-wheel](img/infosec.png)
 
 ## ISO 27001, A.9
