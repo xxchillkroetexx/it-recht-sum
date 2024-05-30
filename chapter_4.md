@@ -31,7 +31,7 @@ Grundsätze Datenschutz:
 | China       | Personal Information Pretection Law (PIPL)                                    |
 | Turkey      | Turkey Data Protection Law                                                    | Wie GDPR          |
 | Brazil      | Brazil Data Protection Law                                                    | Wie GDPR          |
-| Russia      | ~~Thai Personal Data Protection Act~~                                             |
+| Russia      | ~~Thai Personal Data Protection Act~~                                         |
 | USA         |                                                                               |                   |
 | Mexico      | Ley Federal de Protección de Datos Personales en Posesión de los Particulares |
 
@@ -41,7 +41,7 @@ Grundsätze Datenschutz:
 - Data Controller: natürliche oder legale Person mit dem Ziel persönliche Daten zu Erheben
 - Data Processor: natürliche oder legale Person, die Daten für den Processor verarbeitet
 
-## Art. 3 Räumlicher Anwendungsbereich der DSGVO
+## Art. 3 Räumlicher Anwendungsbereich der DSGVO :exclamation:
 
 - Verarbeitung personenbezogener Daten durch Verantwortliche oder Auftragsverarbeiter mit Niederlassung in der EU.
 - Verarbeitung personenbezogener Daten von Personen in der EU durch Verantwortliche oder Auftragsverarbeiter ohne Niederlassung in der EU, wenn:
@@ -49,7 +49,7 @@ Grundsätze Datenschutz:
   - Das Verhalten von Personen in der EU beobachtet wird.
 - Verarbeitung personenbezogener Daten durch Verantwortliche, die nicht in der EU niedergelassen sind, aber an einem Ort tätig sind, der dem Recht eines EU-Mitgliedstaats unterliegt.
 
-## Art. 4 DSGVO Definitionen
+## Art. 4 DSGVO Definitionen :exclamation:
 
 1. Persönliche Daten: alle Daten, die sich auf eine identifizierbare Person beziehen. Identifizierbar insofern, dass über Kennungen Rückschlüsse auf die natürliche Person gezogen werden können
 2. Verarbeitung: Jeder Vorgang der auf personenbezogene Daten angewendet wird (Sammeln, Aufnehmen, Organisieren, Strukturieren, Speichern)
@@ -58,7 +58,7 @@ Grundsätze Datenschutz:
 5. Controller: eine natürliche oder legale Person, die Daten mit dem Zweck erhebt, dass diese danach durch einen Processor verarbeitet werden
 6. Processor: eine natürliche oder legale Person, die Daten im Auftrag des Controllers verarbeitet
 
-## GDPR Art. 5 Grundsätze bei der Verarbeitung personenbezogener Daten
+## GDPR Art. 5 Grundsätze bei der Verarbeitung personenbezogener Daten :exclamation:
 
 Erhobene Daten sollten:
 
@@ -71,7 +71,7 @@ Erhobene Daten sollten:
 
 Controller sind für die Einhaltung der Compliance zuständig
 
-## GDPR Art. 6 Rechtmäßigkeit der Erhebung
+## GDPR Art. 6 Rechtmäßigkeit der Erhebung :exclamation:
 
 Die Verarbeitung ist nur rechtmäßig, wenn mindestens eine der nachstehenden Bedingungen erfüllt ist:
 
@@ -82,7 +82,7 @@ Die Verarbeitung ist nur rechtmäßig, wenn mindestens eine der nachstehenden Be
 - die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen Interesse liegt
 - die Verarbeitung ist zur Wahrung dem berechtigten Interesse des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person eingeschränkt werden
 
-## GDPR Art. 7 Bedingungen für die Einwilligung
+## GDPR Art. 7 Bedingungen für die Einwilligung :exclamation:
 
 Die Einwilligung muss unter folgenden Bedingungen erfolgen:
 
@@ -106,7 +106,7 @@ Wird einem Kind ein Angebot gemacht, das die Verarbeitung personenbezogener Date
 
 Erwägungsgrund 38 (Besonderer Schutz der Daten von Kindern)
 
-## Art 9. Spezielle Kategorien personenbezogener Daten
+## Art 9. Spezielle Kategorien personenbezogener Daten :exclamation:
 
 Personenbezogene Daten:
 
@@ -137,11 +137,11 @@ Gilt besonders im Fall von Verarbeitung personenbezogener Daten von Kindern
 
 ## GDPR Art. 14 Informationspflicht, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben wurden
 
-## GDPR Art. 15 Auskunftsrecht der betroffenen Person
+## GDPR Art. 15 Auskunftsrecht der betroffenen Person :exclamation:
 
-## GDPR Art. 16 Recht auf Berichtigung
+## GDPR Art. 16 Recht auf Berichtigung :exclamation:
 
-## GDPR Art. 17 Recht auf Löschung ("Recht auf Vergessenwerden")
+## GDPR Art. 17 Recht auf Löschung ("Recht auf Vergessenwerden") :exclamation:
 
 1. Betroffene Person hat das Recht, dass personenbezogene Daten unverzüglich gelöscht werden sofern einer der folgenden Gründe zutrifft:
 
@@ -160,20 +160,20 @@ Gilt besonders im Fall von Verarbeitung personenbezogener Daten von Kindern
    - öffentliches Interesse
    - Archivzwecke, wissenschaftliche oder historische Forschungszweck
 
-## GDPR Art. 25 Datenschutz durch Technikgestaltung und durch Datenschutzfreundliche Voreinstellungen
+## GDPR Art. 25 Datenschutz durch Technikgestaltung und durch Datenschutzfreundliche Voreinstellungen :exclamation:
 
 1. Zur Sicherung der Daten muss geeignete technische Maßnahme ergriffen werden
 2. Es muss technisch sichergestellt werden, dass nur erforderliche Daten gespeichert werden
 3. Es kann zertifiziert werden, dass 1 und 2 eingehalten werden
 
-## GDPR Art. 30 Verzeichnis von Verarbeitungstätigkeiten
+## GDPR Art. 30 Verzeichnis von Verarbeitungstätigkeiten :exclamation:
 
 1. Verantwortlicher müssen Verzeichnis über alle Verarbeitungsaktivitäten führen
    1. Inhalt
    2. Zweck
    3. Was, Wie, Warum
 
-## GDPR Art. 32 Sicherheit der Verarbeitung
+## GDPR Art. 32 Sicherheit der Verarbeitung :exclamation:
 
 1. Angemessene Schutzmaßnahmen in Bezug auf Risiko
 
@@ -236,6 +236,14 @@ Folgeabschätzung muss enthalten:
 4. Muss Hilfestellung geben bei Bedarf
 5. Muss geheim halten
 6. Darf andere Tätigkeiten wahrnehmen, jedoch ohne Interessenskonflikt
+
+## GDPR Art. 39 Aufgaben des Datenschutzbeauftragten :exclamation:
+
+1. Informieren und Beraten
+2. Überwachung der Einhaltung
+3. Beratung bei Datenschutz-Folgeabschätzungen
+4. Zusammenarbeit mit Aufsichtsbehörden
+5. Risikoberücksichtigung
 
 # 4.2 International Data Protection Regulations
 
@@ -367,6 +375,6 @@ Meldung Verletzungen
 
 - bei Verlust, Zerstörung, Diebstahl, Nutzung Zugriff (unrechtmäßig)
 
-Empfehlung an betroffene, was für Maßnahmen ergriffen werden sollten
+Empfehlung an Betroffene, was für Maßnahmen ergriffen werden sollten
 
 Klarer als in GDPR geregelt: Benachrichtigung über Ursache, Hergang, Handlungsempfehlungen
