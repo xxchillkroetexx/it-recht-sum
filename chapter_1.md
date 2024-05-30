@@ -1,12 +1,14 @@
 # 1 ISO Voraussetzungen, Policies, Organisation, Governance Model
 
-Ist ISO eine IT Rolle?
+Ist ISO (Information Security Officer) eine IT Rolle?
+
 > der ISO sollte innerhalb der IT-Abteilung positioniert sein. So ist eine effektive Zusammenarbeit mit der IT-Abteilung möglich
 
-Was ist die Verbindung zwischen ISO und der Gesetzgebung?
+Was ist die Verbindung zwischen ISO (Standard) und der Gesetzgebung?
+
 > Der ISO hat die Aufgabe, rechtliche Rahmenbedingungen der Datenverarbeitung zu kontrollieren.
 
-## Klassifizierung von Sicherheitsrisiken 
+## Klassifizierung von Sicherheitsrisiken :poop:
 
 1. Niedrig: wenige Angriffe, keine Indikatoren für Eindringlinge oder Attacken
 2. Gesichert: normales Risiko. Keine Indikatoren für Eindringlinge oder Attacken
@@ -14,10 +16,10 @@ Was ist die Verbindung zwischen ISO und der Gesetzgebung?
 4. Hoch: Hohes Risiko: hohe Anzahl an gemeldeten Angriffen. Keine Anzeichen für Eindringlinge oder direkte Attacken
 5. Schwer: schweres Risiko. Anzeichen oder starker Verdacht für Eindringlinge
 
+## Schwächen :exclamation:
 
-## Schwächen
+### ISMS
 
-### ISMS 
 1. Fehlende oder unklare Anforderungen an InfoSec
 2. Unklares InfoSec Vorgehensmodel
 3. Fehlende Produkt- oder Service Lifecycle Orientierung :arrow_right: veraltete produkte und Services
@@ -26,6 +28,7 @@ Was ist die Verbindung zwischen ISO und der Gesetzgebung?
 6. Fehlende Notfall Planung :arrow_right: nicht zu bewältigendes Risiko
 
 ### Cyber Security
+
 1. Schwachstellen in Software :arrow_right: nicht angemessen sicher genug für Gefahrenlage
 2. Unangemessener Schutz gegen Malware :arrow_right: geringe Erkennungsrate
 3. Identifikation und Authentifizierung fehlend :arrow_right: Passwörter alleine sind nicht sicher genug
@@ -37,26 +40,27 @@ Was ist die Verbindung zwischen ISO und der Gesetzgebung?
 9. Manipulierte Technologien
 10. Fake News
 
+## Operational Excellence (OPEX) = KVP :exclamation:
 
-## Operational Excellence (OPEX)
-- Mindset, das gewisse Prinzipien und Tools umfasst, um eine *Culture of Excellence* im Unternehmen einzuführen.
+- Mindset, das gewisse Prinzipien und Tools umfasst, um eine _Culture of Excellence_ im Unternehmen einzuführen.
 - Jeder Mitarbeiter kann den Wertefluss zum Kunden einsehen, dazu beitragen und ihn verbessern
 
 Zielsetzung:
 
 :arrow_right: Kernprozesse in der Wertschöpfungskette ständig im Hinblick auf Effektivität und Effizienz optimieren. Unterstützt durch die richtige Kombination der Verbesserungsmethoden den kontinuierlichen Verbesserungsprozess.
 
+![Operational Excellence Circle](/img/opex_circle.jpg)
 
-## COBIT (Control Objectives for Information and Related Technology)
+## COBIT (Control Objectives for Information and Related Technology) :exclamation:
 
 International anerkanntes Framework zur IT-Governance und gliedert IT Aufgaben in Prozesse und Kontrollziele.
 
 :arrow_right: Es wird definiert was umzusetzen ist, nicht wie es umzusetzen ist.
 
-
-## ISMS / Policies
+## ISMS / Policies :exclamation:
 
 Schritte zur Einführung von ISO 27001:
+
 1. Management Überzeugen
 2. Verstehen wer in welcher Form betroffen ist. Prozesse und Dokumentationen benötigt
 3. Vorbereitung von z.B. Risiko Analysen, Notfallplänen, Trainings
@@ -71,20 +75,19 @@ flowchart LR
     id1[Anforderungen \n und \n Standards \n definieren]--> id2[Beteiligte \n ermitteln]--> id3[ISMS Scope \n festlegen] --> id4[GAP Analyse \n durchführen]--> id5[Kosten \n und \n Aufwand \n Schätzung]--> id6[Management \n Erlaubnis \n erhalten] --> id7[Projekt Start]
 ```
 
-## Standards
+## Standards  :exclamation:
 
 (Branchen spezifische Standards nicht klausurrelevant)
 
-| Standard | Icon | Beschreibung |
-| --- | --- | --- | 
-| ISO 27001 | <img src="img/ISO-27001.svg" alt="drawing" width="100"/> | Internationale Norm für Einrichtung, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines dokumentierten Informationssicherheits-Managementsystems |
-| TISAX | <img src="https://portal.enx.com/tisaxlogo" alt="drawing" width="100"/> | TISAX ist Kfz-Branchen-spezifisch. Der Standard betrifft die sichere Verarbeitung von Informationen von Geschäftspartnern, den Schutz von Prototypen und den Datenschutz gemäß Datenschutz-Grundverordnung (DSGVO) für mögliche Geschäfte zwischen Autoherstellern und ihren Dienstleistern oder Lieferanten |
-| BSI Standard 200 | <img src="https://www.bsi.bund.de/_config/richsnippets/logo.jpg?__blob=normal&v=2" alt="drawing" width="100"/> | Erläutert den Aufbau eines Informationssicherheitsmanagementsystems (ISMS). Kompatibel zum ISO -Standard 27001 und berücksichtigt die Empfehlungen der anderen ISO -Standards wie ISO 27002 |
-| KRITIS | <img src="https://www.bsi.bund.de/SharedDocs/Bilder/DE/BSI/Themen/KRITIS/UPK/upk-logo.png?__blob=normal&v=2" alt="drawing" width="100"/> | Standard gültig für Betreiber kritischer Infrastrukturen. Umfasst 9 Sektoren der Kritischen Infrastruktur welche wichtige Bedeutung für das staatliche Gemeinwesen haben und  deren Ausfall oder Beeinträchtigung nachhaltig wirkende Versorgungsengpässe, erhebliche Störungen der öffentlichen Sicherheit oder andere dramatische Folgen haben würde. |
-| IT Sicherheitsgesetz | <img src="https://www.bsi.bund.de/_config/richsnippets/logo.jpg?__blob=normal&v=2" alt="drawing" width="100"/> | Verbesserung der Sicherheit informationstechnischer Systeme (IT-Sicherheit) in Deutschland und Schutz kritischer Infrastrukturen, welche für das Funktionieren des Gemeinwesens relevant sind | 
+| Standard             | Icon                                                                                                                                     | Beschreibung                                                                                                                                                                                                                                                                                                                                           |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ISO 27001            | <img src="img/ISO-27001.svg" alt="drawing" width="100"/>                                                                                 | Internationale Norm für Einrichtung, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines dokumentierten Informationssicherheits-Managementsystems                                                                                                                                                                                         |
+| TISAX :poop:         | <img src="https://portal.enx.com/tisaxlogo" alt="drawing" width="100"/>                                                                  | TISAX ist Kfz-Branchen-spezifisch. Der Standard betrifft die sichere Verarbeitung von Informationen von Geschäftspartnern, den Schutz von Prototypen und den Datenschutz gemäß Datenschutz-Grundverordnung (DSGVO) für mögliche Geschäfte zwischen Autoherstellern und ihren Dienstleistern oder Lieferanten                                           |
+| BSI Standard 200     | <img src="https://www.bsi.bund.de/_config/richsnippets/logo.jpg?__blob=normal&v=2" alt="drawing" width="100"/>                           | Erläutert den Aufbau eines Informationssicherheitsmanagementsystems (ISMS). Kompatibel zum ISO -Standard 27001 und berücksichtigt die Empfehlungen der anderen ISO -Standards wie ISO 27002                                                                                                                                                            |
+| KRITIS               | <img src="https://www.bsi.bund.de/SharedDocs/Bilder/DE/BSI/Themen/KRITIS/UPK/upk-logo.png?__blob=normal&v=2" alt="drawing" width="100"/> | Standard gültig für Betreiber kritischer Infrastrukturen. Umfasst 9 Sektoren der Kritischen Infrastruktur welche wichtige Bedeutung für das staatliche Gemeinwesen haben und deren Ausfall oder Beeinträchtigung nachhaltig wirkende Versorgungsengpässe, erhebliche Störungen der öffentlichen Sicherheit oder andere dramatische Folgen haben würde. |
+| IT Sicherheitsgesetz | <img src="https://www.bsi.bund.de/_config/richsnippets/logo.jpg?__blob=normal&v=2" alt="drawing" width="100"/>                           | Verbesserung der Sicherheit informationstechnischer Systeme (IT-Sicherheit) in Deutschland und Schutz kritischer Infrastrukturen, welche für das Funktionieren des Gemeinwesens relevant sind                                                                                                                                                          |
 
-
-## ISMS Scope festlegen
+## ISMS Scope festlegen :exclamation:
 
 - Geographischer Scope
 - Produktionsstandorte
@@ -93,7 +96,7 @@ flowchart LR
 - Verfahren
 - Prozesse
 
-## GAP Analyse
+## GAP Analyse :exclamation:
 
 Zeigt folgende Aspekte:
 
@@ -107,7 +110,12 @@ Soll folgende Aspekte liefern:
 - benötigte Maßnahmen
 - Benötigte Mittel: Zeit + Geld
 
-## Informations Sicherheits Policies (ISO 27001, 5.2, A.5) :hammer:
+## Information Security Policies allgemein
+
+Verschiedene Bereiche brauchen unterschiedliche Dokumente. Die Security-Policy wird aufgebrochen und in angepasster Version an Management, Mitarbeiter und Externe gegeben.
+
+
+## Informations Sicherheits Policies (ISO 27001, 5.2, A.5) :hammer: :exclamation:
 
 ### 5.2 Policy
 
@@ -121,14 +129,14 @@ Das Management soll eine Informationssicherheitsrichtlinie einführen, die:
 </ol>
 
 Die Richtlinie sollte:
+
 <ol type="a" start="5">
   <li>als Dokumentation vorhanden sein</li>
   <li>mit der Organisation kommuniziert sein</li>
   <li>interessierten Betroffenen zugänglich gemacht werden</li>
 </ol>
 
-
-## Informations Sicherheits Policies (BSI 200-1, 7.1) :hammer:
+## Informations Sicherheits Policies (BSI 200-1, 7.1) :hammer: :exclamation:
 
 Formulierung sicherheitsrelevanter Ziele und einer Sicherheitsrichtlinie.
 
@@ -143,7 +151,7 @@ Folgende Aspekte sollten bei der Entwicklung der Sicherheitsstrategie berücksic
 - IT gestützte Business Prozesse und Aufgaben
 - Globale Bedrohungen und Gefahren durch Sicherheitsrisiken
 
-## ISMS schematischer Aufbau
+## ISMS schematischer Aufbau :exclamation:
 
 ![ISMS Pyramide](img/isms-pyramid.png)
 
@@ -158,7 +166,7 @@ Folgende Aspekte sollten bei der Entwicklung der Sicherheitsstrategie berücksic
   - Log Dateien
 
 
-## Zielsetzung, ISO27001, 6.2 :hammer:
+## Zielsetzung, ISO27001, 6.2 :hammer: :exclamation:
 
 Die Organisation sollte IT Recht für ISOs Zielsetzungen an relevanter Funktion und Position einbringen.
 
@@ -177,23 +185,25 @@ Grundsatz :arrow_right: Bei Bedarf sollten die High-Level Ziele zu spezifischere
 
 ---
 
-## CIA Triade
+## CIA Triade :exclamation: :exclamation: :exclamation:
+
 ![cia triade](img/CIA-triad.png)
 
 **Wichtigste IT Schutzziele:**
 
 - Vertraulichkeit: Daten vor unbefugtem Zugriff geschützt :arrow_right: Kompromitierungsbeispiel: Laptop geklaut, Passwort Diebstahl
-    - Erreicht durch Verschlüsslung
-- Integrität: Schutz vor unbemerkter und unberechtigter Manipulation der Daten, Daten sind korrekt :arrow_right:  Kompromitierungsbeispiel: Ransomware → Die Daten werden verändert
-    - Erreicht durch Hashes
+  - Erreicht durch Verschlüsslung
+- Integrität: Schutz vor unbemerkter und unberechtigter Manipulation der Daten, Daten sind korrekt :arrow_right: Kompromitierungsbeispiel: Ransomware → Die Daten werden verändert
+  - Erreicht durch Hashes
 - Verfügbarkeit: Daten sind in vereinbartem Rahmen zugänglich, zeitlich und örtlich :arrow_right: DDoS Angriff
-    - Erreicht durch Redundanz
+  - Erreicht durch Redundanz
 
 **(Extra, nicht Teil von CIA)**
-- nonrepudiation: Die Authentizität der Nachricht ist sicher: Man kann sich nicht als jemand anders ausgeben.
-    - Erreicht durch Asymmetrische Kryptographie (Signaturen und Verifikationen)
 
-## Informationssicherheit Schutzziele
+- nonrepudiation: Die Authentizität der Nachricht ist sicher: Man kann sich nicht als jemand anders ausgeben.
+  - Erreicht durch Asymmetrische Kryptographie (Signaturen und Verifikationen)
+
+## Informationssicherheit Schutzziele :exclamation:
 
 1. Informationen sind verfügbar, wenn sie benötigt werden
 2. Vertrauliche Informationen müssen angemessen behandelt werden
@@ -203,10 +213,10 @@ Grundsatz :arrow_right: Bei Bedarf sollten die High-Level Ziele zu spezifischere
 6. Das Recht auf informationelle Selbstbestimmung muss gegeben sein
 7. Einhaltung lokaler Richtlinien und Gesetze
 
-## Informationssicherheits Prinzipien
+## Informationssicherheits Prinzipien :exclamation:
 
 1. CIA
-2. InfoSec Franework nach ISO 27001 ausgerichtet
+2. InfoSec Framework nach ISO 27001 ausgerichtet
 3. Anpassung und Skalierung nach Bedarf
 4. Klar definierte Verantwortlichkeiten
 5. Vorhandensein des Bewussteins für InfoSec
@@ -232,7 +242,7 @@ Soll Verantwortlichkeiten zuweisen für:
 
 ### 7.2
 
-Festlegen und Planung von  orga. Strukturen, Rollen und Pflichten.
+Festlegen und Planung von orga. Strukturen, Rollen und Pflichten.
 
 Bei der Planung der Rollen, müssen folgende Regeln beachtet werden:
 
@@ -240,25 +250,23 @@ Bei der Planung der Rollen, müssen folgende Regeln beachtet werden:
 2. Es muss eine koordinierende Person geben (ISO)
 3. Jeder Mitarbeiter ist für die Informationssicherheit an der eigenen Arbeitsstelle verantwortlich (beachten der Do's and Dont's in Bezug auf InfoSec)
 
-## Organisation von Informationssicherheit
+## Organisation von Informationssicherheit :exclamation:
 
 ```mermaid
 flowchart LR
     id1[1: Analysieren und Sammeln]--> id2[2: Struktur und Umwandlung]--> id3[3: Implementierung ]
 ```
-1. 
-   1. Was ist benötigt
-   2. In welchem Kontext?
-   3. In welcher Form?
-2. 
-   1. Ähnlichkeiten von Anforderungen
-   2. Widersprüchlichkeiten von Anforderungen
-   3. Wie passen Anforderungen in Struktur
-3. 
-   1. Einen Demand starten und abarbeiten
-   2. Management Erlaubnis einholen
-   3. Strukturen schaffen, Prozesse, Tools, Verwaltung
-   4. Informieren und Trainieren von Mitarbeitern
+
+1.  1.  Was ist benötigt
+    2.  In welchem Kontext?
+    3.  In welcher Form?
+2.  1.  Ähnlichkeiten von Anforderungen
+    2.  Widersprüchlichkeiten von Anforderungen
+    3.  Wie passen Anforderungen in Struktur
+3.  1.  Einen Demand starten und abarbeiten
+    2.  Management Erlaubnis einholen
+    3.  Strukturen schaffen, Prozesse, Tools, Verwaltung
+    4.  Informieren und Trainieren von Mitarbeitern
 
 ## Information Security Management Board (ISMB)
 
@@ -270,7 +278,7 @@ CISO interagiert mit allen relevanten Teilbereichen.
 
 ![ciso](img/ciso.png)
 
-## ITIL
+## ITIL :poop:
 
 ### ITIL v3
 
@@ -284,19 +292,20 @@ Ist die 3. Version der ITIL Service Operation und betrifft alle Aktivitäten und
   - Event ist Ereignis, das in IT ausgelöst wurde. Event muss zur Lösung an Servicedesk weitergeleitet werden
 - Incident Management
   - Störungen werden nach vereinbarten Service Levels bearbeitet
-- Problem Management 
+- Problem Management
   - Hier werden dem Incident-Management temporäre Lösungen (workarounds) zur Verfügung gestellt
   - Befasst es sich mit der Störungsvermeidung (proaktives Management)
 
 ### ITIL v4
 
-ITIL 4 bringt einige neue Gedanken ein und entwickelt bestehende Inhalte von ITIL v3 weiter. 
+ITIL 4 bringt einige neue Gedanken ein und entwickelt bestehende Inhalte von ITIL v3 weiter.
 
 - ITIL 4 nennt zwei Schlüsselelemente:
 - Service Value System SVS 7
 - Modell der vier Dimensionen
 
 Ganzeinheitlicher Ansatz für Management
+
 - Organisation und Personen
 - Informationen und Technologien
 - Partner und Lieferanten
@@ -308,14 +317,14 @@ Ganzeinheitlicher Ansatz für Management
 - Identity und Access Management: beide
 - Definition von Maßnahmen und Berichterstattungen: nur in ITIL 4
 
-## ISO20000
+## ISO20000 :poop:
 
 - Internationaler Standard für IT Service Management
 - Ursprünglich entwickelt, um Best-Practice Guidelines innerhalb ITIL aufzuzeigen
 
-| Standard | Zertifizierung Unternehmen möglich | Zertifizierung Person möglich | Gültigkeit |
-| --- | --- | --- | --- |  
-| ISO/IEC 20000 | Ja | Nein | 3 Jahre |
+| Standard      | Zertifizierung Unternehmen möglich | Zertifizierung Person möglich | Gültigkeit |
+| ------------- | ---------------------------------- | ----------------------------- | ---------- |
+| ISO/IEC 20000 | Ja                                 | Nein                          | 3 Jahre    |
 
 ---
 

@@ -1,30 +1,32 @@
 # 2 Aktuelle Standards in der Informations Sicherheit
 
 ## Informationssicherheitsstandards
-| Standard | Beschreibung |
-| --- | --- |
-| ISO27001 | ... |
-| BSI 200 | ... | 
-| NIST SP 800-53 | Zusätzliche Hintergrundinformationen, Gültigkeit, Implementierungshilfen, Bewertung |
-| NIST Cybersecurity Framework | Freiwilliges Framework mit den Inhalten von Standards, Guidelines und Best-Practice Ansätzen zur Handhabung von Cyber Security Risiken |
-| TISAX | Der Standard betrifft die sichere Verarbeitung von Informationen von Geschäftspartnern, den Schutz von Prototypen und den Datenschutz gemäß Datenschutz-Grundverordnung (DSGVO) für mögliche Geschäfte zwischen Autoherstellern und ihren Dienstleistern oder Lieferanten | 
-| TPISR | TPISR erfüllt damit eine ähnliche Rolle für US-Firmen wie TISAX in der deutschen Autoindustrie |
 
-## KRITIS 
+| Standard                     | Beschreibung                                                                                                                                                                                                                                                              |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ISO27001                     | ...                                                                                                                                                                                                                                                                       |
+| BSI 200                      | ...                                                                                                                                                                                                                                                                       |
+| NIST SP 800-53               | Zusätzliche Hintergrundinformationen, Gültigkeit, Implementierungshilfen, Bewertung                                                                                                                                                                                       |
+| NIST Cybersecurity Framework | Freiwilliges Framework mit den Inhalten von Standards, Guidelines und Best-Practice Ansätzen zur Handhabung von Cyber Security Risiken                                                                                                                                    |
+| TISAX :poop:                 | Der Standard betrifft die sichere Verarbeitung von Informationen von Geschäftspartnern, den Schutz von Prototypen und den Datenschutz gemäß Datenschutz-Grundverordnung (DSGVO) für mögliche Geschäfte zwischen Autoherstellern und ihren Dienstleistern oder Lieferanten |
+| TPISR :poop:                 | TPISR erfüllt damit eine ähnliche Rolle für US-Firmen wie TISAX in der deutschen Autoindustrie                                                                                                                                                                            |
+
+## KRITIS :exclamation:
 
 Organisationen und Einrichtungen mit wichtiger Bedeutung für das staatliche Gemeinwesen, bei deren Ausfall oder Beeinträchtigung nachhaltig wirkende Versorgungsengpässe, erhebliche Störungen der öffentlichen Sicherheit oder andere dramatische Folgen eintreten würden.
 
 ![kritis](img/KRITIS_Sektordiagramm.png)
 
 Betroffene Unternehmen müssen:
+
 - Kontakt mit Behörden führen
 - IT Vorfälle melden
 - State of the Art implementieren
 - ISO 27001 Nachweis alle 2 Jahre erbringen
 
-## ISO 27001 Inhalte
+## ISO 27001 Inhalte :exclamation:
 
-Organisatorische und prozeduale Anforderungen
+Organisatorische und prozeduale Anforderungen aus TOC Annex
 
 5. Richtlinien zur Informationssicherheit
 6. Organisation der Informationssicherheit
@@ -32,8 +34,8 @@ Organisatorische und prozeduale Anforderungen
 8. Vermögensverwaltung
 9. Zugangskontrolle
 10. Kryptographie
-11. Physische und umgebungsbezogene Sicherheit 
-12. Sicherheit im Betrieb 
+11. Physische und umgebungsbezogene Sicherheit
+12. Sicherheit im Betrieb
 13. Kommunikationssicherheit
 14. Erwerb, Entwicklung und Wartung von Systemen
 15. Lieferantenbeziehungen
@@ -42,12 +44,13 @@ Organisatorische und prozeduale Anforderungen
 18. Einhaltung interner Anforderungen, z. B. Richtlinien, und externer Anforderungen, z. B. Gesetze
 
 #### ISO 27001 Zertifizierungsprozess
+
 ```mermaid
 flowchart LR
     id1[1: Vorbereitung & \n Dokumentation]--> id2[Stage 1 \n Audit]--> id3[ISMS \n Implementierung]--> id4[Stage 2 \n Audit]--> id5[ISMS Wartung & \n Verbesserung] -->id6[Kontinuierliche \n Audits]
 ```
 
-## Kontinuierlicher Verbesserungsprozess
+## Kontinuierlicher Verbesserungsprozess :exclamation:
 
 ![pdca cycle](img/PDCA_Cycle.svg.png)
 
@@ -56,22 +59,22 @@ flowchart LR
 3. Check (Laufende Überwachung des ISMS und Erfolgskontrolle)
 4. Act (Verbesserungen fließen ein)
 
-## BSI Standards
+## BSI Standards :exclamation:
 
-| Standard | Inhalt |
-| --- | --- |
-| BSI-Standard 200-1 | ISMS | 
+| Standard           | Inhalt                  |
+| ------------------ | ----------------------- |
+| BSI-Standard 200-1 | ISMS                    |
 | BSI-Standard 200-2 | IT-Grundschutz-Methodik |
-| BSI-Standard 200-3 | Risiko Analyse | 
-| BSI-Standard 200-4 | Notfallmanagement |
+| BSI-Standard 200-3 | Risiko Analyse          |
+| BSI-Standard 200-4 | Notfallmanagement       |
 
-## NIST 800-53 Security and Privacy Controls for Information Systems and Organizations, Rev. 5
+## NIST 800-53 Security and Privacy Controls for Information Systems and Organizations, Rev. 5 :exclamation:
 
 - Gültigkeit bezieht sich auf alle Organisationen, nicht nur staatliche
 - Anwendung in jeglicher Organisation oder System, das entweder Daten verarbeitet, speichert oder überträgt
 - soll Organisationen helfen, die Sicherheits- und Datenschutzkontrollen zu identifizieren, die zum Risikomanagement und zur Erfüllung der Sicherheits- und Datenschutzanforderungen beitragen
 
-## NIST Cybersecurity Framework
+## NIST Cybersecurity Framework :exclamation:
 
 ![nist cybersecurity framework](https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2019/10/18/framework_functions_wheel.png?itok=1KLGPsFQ)
 
@@ -84,13 +87,15 @@ flowchart LR
 **Nachteil**
 Modell basiert jedoch nur auf Angriffen die man kennt :heavy_exclamation_mark:
 
-## Capability Maturity Model Integrated (CMMI)
+## Capability Maturity Model Integrated (CMMI) / Prozessgüte
 
 ist ein Schulungs- und Beurteilungsprogramm für die Verbesserung von Prozessen
 
 - Prozess Programm zum Training und Bewertung
 - Für viele Regierungsaufträge benötigt
 - CMMI definiert folgende Reife Level: Initial, Managed, Defined, Quantitatively Managed, and optimizing
+
+![Prozessgüte Einstufung](/img/process_marturity_levels.png)
 
 ## COBIT 2019
 
@@ -100,7 +105,7 @@ Werkzeug für das Management und die Steuerung der Unternehmens-IT.
 
 COBIT dient als "Werkzeugkasten", um ein optimales Ausrichtung zwischen Business und IT herzustellen. Das Rahmenwerk unterstützt die Anwender beim Management der IT-Organisation und ist die Voraussetzung zur Umsetzung einer Corporate Governance.
 
-### NIST CSF Implementierung mit COBIT 2019
+### NIST CSF Implementierung mit COBIT 2019 :poop:
 
 1. Priorisierung und Scope festlegen. Business Ziele ermitteln und priorisieren. Mögliche verschiedene Anforderungen
 2. Orientierung. Identifizierung relevanter Systeme, die von diesen Zielen betroffen sind
@@ -110,17 +115,18 @@ COBIT dient als "Werkzeugkasten", um ein optimales Ausrichtung zwischen Business
 6. Vergleich Ist/Soll-Zustand
 7. Umsetzung des Plans
 
-## VDA Information Security Assessment (VDA-ISA)
+## VDA Information Security Assessment (VDA-ISA) :poop:
 
 - Selbsteinschätzung um den Stand der Informationssicherheit im Unternehmen festzustellen
 - Auditierungen durch interne Abteilungen durchgeführt
 - Selbstprüfung von ISO27001
 
-## Human Resource Security (ISO 27001, 7.3, A.7) :hammer:
+## Human Resource Security (ISO 27001, 7.3, A.7) :hammer: :exclamation:
 
 ### 7.1 Bewusstsein für Security Themen
 
-Personen die im Unternehmen arbeiten sollten bewusstsein für ... haben:
+Personen die im Unternehmen arbeiten sollten Bewusstsein für ... haben:
+
 <ol type="a">
   <li>die InfoSec Richtlinien</li>
   <li>ihren Beitrag zu IT Sec Systemen und den Vorteilen durch erhöhte Sicherheit</li>
@@ -137,7 +143,7 @@ Personen die im Unternehmen arbeiten sollten bewusstsein für ... haben:
 
 ## Teleworking
 
-Ist eine Arbeitsorganisation, bei der Arbeitnehmer ihre Arbeitsaufgaben ganz oder teilweise außerhalb der Geschäftsräume oder Betriebsstätten des Arbeitgebers ausüben.
+... ist eine Arbeitsorganisation, bei der Arbeitnehmer ihre Arbeitsaufgaben ganz oder teilweise außerhalb der Geschäftsräume oder Betriebsstätten des Arbeitgebers ausüben.
 
 Formen und dadurch entstehende Risiken:
 
@@ -154,30 +160,31 @@ Formen und dadurch entstehende Risiken:
 ## Mitarbeiter Bewusstsein
 
 Warum?
+
 - Anfälligkeit, schlechten Code nicht zu erkennen
 - können Situationen evtl. nicht einschätzen
 - Angst Fälle zu melden
 
-### Trainingsformate um Bewusstsein zu schaffen
+### Trainingsformate um Bewusstsein zu schaffen :exclamation:
 
-| Präventive Maßnahmen | Reaktive Maßnahmen / Tests |
-| --- | --- |
-| E-Learnings, Schulungen | Phishing Reporting |
-| Helper Tools | Incident Prozess |
-| Phishing Kampagnen | |
-| Software aktuell halten | Daten wiederherstellen|
-| Physikalischen Zugriff einschränken | Accounts entfernen |
+| Präventive Maßnahmen                | Reaktive Maßnahmen / Tests |
+| ----------------------------------- | -------------------------- |
+| E-Learnings, Schulungen             | Phishing Reporting         |
+| Helper Tools                        | Incident Prozess           |
+| Phishing Kampagnen                  |                            |
+| Software aktuell halten             | Daten wiederherstellen     |
+| Physikalischen Zugriff einschränken | Accounts entfernen         |
 
 Schwierigkeiten:
 
 - Fremde Sprachen
 - Kulturelles Besonderheiten
 
-## Simulationen
+## Simulationen :exclamation:
 
 ### Red Team Event
 
-Red Team ist eine Gruppe von White-Heads die versucht, die Infrastruktur eines Unternehmens anzugreifen (Blue Team). 
+Red Team ist eine Gruppe von White-Heads die versucht, die Infrastruktur eines Unternehmens anzugreifen (Blue Team).
 
 Vorteile: Gibt eine gute Übersicht über die Robustheit der Sicherheitsmaßnahmen unter realistischen Bedingungen
 
@@ -226,18 +233,19 @@ Ziel: Unautorisierten Zugriff auf Systeme und Anwendungen unterbinden
 - Password Policy benötigt
 - Mindestanforderungen
 
-| Account | Länge | Ablaufen |
-| --- | --- | --- | 
-| User | 8-14 | 90 |
-| User (alternate controls) | 15+ | 366 |
-| Privileged User | 16 | 90 |
-| Service | 30 | 366 |
+| Account                   | Länge | Ablaufen |
+| ------------------------- | ----- | -------- |
+| User                      | 8-14  | 90       |
+| User (alternate controls) | 15+   | 366      |
+| Privileged User           | 16    | 90       |
+| Service                   | 30    | 366      |
 
 ## NIST Digital Identity Guideline Passwords
 
 - Cleanup regelmäßig
 
 Problem:
+
 - Lange Zeitabstände
 - Wenig Änderungen in geänderten Passwörtern
 
@@ -247,3 +255,5 @@ Internationaler Standard für sichere Cryptoprozessoren zur Sicherung von Hardwa
 
 - Schutz gegen softwareseitige Manipulation durch unbefugte Dritte
 - In China durch Regierungsbehörden verboten
+
+[Chapter 3](./chapter_3.md)

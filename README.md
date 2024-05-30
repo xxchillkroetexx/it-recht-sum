@@ -49,3 +49,8 @@
 ## 9 Attack and Defence Scenarios
 
 [Chapter 9](chapter_9.md)
+
+
+# Legende
+:poop: = (scheint) nicht klausurrelevant
+:exclamation: = klausurrelevant
