@@ -1,6 +1,6 @@
 # 3 Asset Management, Risk Management
 
-## ISO 27001, A.8 Asset Management :hammer:
+## ISO 27001, A.8 Asset Management :hammer: :exclamation:
 
 ### 8.1 Verantwortlichkeiten für Assets
 
@@ -14,20 +14,19 @@ Ziel: Sicherstellen, dass Informationen angemessenen Schutz erhalten in Bezug au
 
 Ziel: Verhindern, dass Informationen unautorisiert offengelegt, verändert oder zerstört werden
 
-
 ## Information Classification
 
 Typische Einstufungen
 
-| Einstufung | Beschreibung |
-| --- | --- |
-|Non-Business | Daten ohne Einfluss auf den Unternehmenszweck, Prozesse, Arbeiten, ... |
-| Public | Business Informationen die für die Veröffentlichung vorgesehen und klassifiziert sind |
-| General | Nicht für Öffentlichkeit gedacht, kann unter Mitarbeitern/ Partnern/ Business Gästen geteilt werden. Standard Einstufung |
-| Confidential | Geheime, strategisch wichtige Informationen, die bei Veröffentlichung Schaden anrichten können. Ebenfalls persönliche Informationen, egal ob bestimmbar |
-| Highly Confidential | Sehr sensible Daten und Daten mit hohem Risiko. Höchste Sicherung notwendig. Enthält sensible persönliche identifizierbare Daten |
+| Einstufung          | Beschreibung                                                                                                                                            |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Non-Business        | Daten ohne Einfluss auf den Unternehmenszweck, Prozesse, Arbeiten, ...                                                                                  |
+| Public              | Business Informationen die für die Veröffentlichung vorgesehen und klassifiziert sind                                                                   |
+| General             | Nicht für Öffentlichkeit gedacht, kann unter Mitarbeitern/ Partnern/ Business Gästen geteilt werden. Standard Einstufung                                |
+| Confidential        | Geheime, strategisch wichtige Informationen, die bei Veröffentlichung Schaden anrichten können. Ebenfalls persönliche Informationen, egal ob bestimmbar |
+| Highly Confidential | Sehr sensible Daten und Daten mit hohem Risiko. Höchste Sicherung notwendig. Enthält sensible persönliche identifizierbare Daten                        |
 
-## ISO 27001, 6.1, 8.2, 8.3 :hammer:
+## ISO 27001, 6.1, 8.2, 8.3 :hammer: :exclamation:
 
 ### 8.2 Information security risk assessment
 
@@ -43,7 +42,7 @@ Das Unternehmen soll einen Plan zum Umgang mit Risiken einführen
 - Ungewünschte Effekte verhindern oder minimieren
 - Andauernde Verbesserung umsetzen
 
-## BSI 200, 8.1 Risk Management, Creating a security Concept :hammer:
+## BSI 200, 8.1 Risk Management, Creating a security Concept :hammer: :exclamation:
 
 - Methodik für Risiko Analyse festlegen
 - Risiken und mögliche Schäden klassifizieren
@@ -51,31 +50,33 @@ Das Unternehmen soll einen Plan zum Umgang mit Risiken einführen
 - Strategie zum Umgang mit Risiken entwickeln
 - Sicherheitsmaßnahmen festlegen
 
-## Umgang mit Risiken (ISO 31000/ ISO 27005) :hammer:
+## Umgang mit Risiken (ISO 31000/ ISO 27005) :hammer: :exclamation:
 
 - Risiko Modifizierung (Maßnahmen zur Minimierung ergreifen)
 - Risiko akzeptieren
 - Risiko Vermeidung (Nur durch Abschaltung)
-- Risiko Teilung 
+- Risiko Teilung
 
 ![risk treatment](img/risk-treatment.png)
 
-### Brutto Risiko
+### Brutto Risiko :exclamation:
 
 - Schadensausmaß X Wahrscheinlichkeit
 - Schadensausmaß X Häufigkeit des Auftretens
 
 ### Präventive Maßnahmen
+
 - Trainiere Mitarbeiter
 - Antimalware
 - Software up2date
 - Manage User Identities
 
 ### Reaktive Maßnahmen
+
 - Backup
 - Access einschränken (Need to know, Least privilege)
 
-### Risiko Management Prozess 
+### Risiko Management Prozess
 
 Schadensausmaß :heavy_plus_sign: EIntrittshäufigkeit :heavy_plus_sign: Ist-Maßnahmen :heavy_plus_sign: Soll-Maßnahmen :arrow_right: Zielrisiko
 
@@ -84,3 +85,7 @@ Schadensausmaß :heavy_plus_sign: Eintrittshäufigkeit :heavy_plus_sign: laufend
 Schadensausmaß :heavy_plus_sign: Eintrittshäufigkeit :heavy_plus_sign: Ist-Maßnahmen :arrow_right: Nettp-Risiko
 
 Schadensausmaß :heavy_plus_sign: Eintrittshäufigkeit :arrow_right: Brutto-Risiko
+
+## Scenarien (beispielhaft)
+
+![Incident](/img/Incident_Scenarios.png)
