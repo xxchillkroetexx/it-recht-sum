@@ -9,7 +9,7 @@
 :arrow_right: minimiert Wahrscheinlichkeit, dass Hacker mit Angriff erfolgreich sind. 
 Bei erfolgreichem Angriff
 
-## Zero Trust Kernprinzipien
+## Zero Trust Kernprinzipien :exclamation:
 
 1. Modern Work Enablement
 2. Goal Alignment
@@ -23,7 +23,7 @@ Bei erfolgreichem Angriff
 10. Simple and Pervasive
 11. Explicit trust Validation
 
-## Zero Trust 
+## Zero Trust :exclamation:
 
 - Sicherheitskonzept mit Grunsatz, dass keinem Gerät, Nutzer, Dienst intern als auch extern vertraut wird
 - Vergabe von so wenig Rechten wie nötig
@@ -35,7 +35,7 @@ Bei erfolgreichem Angriff
 
 Unterschied herkömmlicher Konzepte :arrow_right: Dienste, Nutzer, Anwendungen werden im eigenen Netzwerk als vertrauenswürdig eingestuft
 
-## Zero Trust gebote
+## Zero Trust Gebote :exclamation:
 
 - Vertrauen ausdrücklich bestätigen (mittels Informationen und Telemetrie)
 - Moderne Arbeit ermöglichen (Enable, nicht blockieren)
@@ -47,7 +47,7 @@ Unterschied herkömmlicher Konzepte :arrow_right: Dienste, Nutzer, Anwendungen w
 - Dauerhaft verbessern (permanent weiterentwicklen und verbessern da sich IT permanent verändert)
 - Fundierte Entscheidungen treffen (Entscheidung auf Grundlage der bestmöglichen Informationen treffen)
 
-## Microsoft Zero Trust Prinzipien
+## Microsoft Zero Trust Prinzipien :exclamation:
 
 - **Explizit verifizieren**
   - Benutzer Identität und Location

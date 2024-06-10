@@ -290,7 +290,7 @@ Folgeabschätzung muss enthalten:
   - Großer Umfang
   - Kernaktivität Verarbeitung sensibler Daten
 
-## GDPR vs. USA
+## GDPR vs. USA :exclamation:
 
 - nur kleine Grundlagen von Datenschutz für US Bürger, für nicht US Bürger gar keine
 - Schutz der Privatsphäre soll durch Gesetze geschützt werden
@@ -303,7 +303,7 @@ Folgeabschätzung muss enthalten:
   - Colorado
   - Virginia
 
-## GDPR vs. China Personal Information Protection Law (PIPL)
+## GDPR vs. China Personal Information Protection Law (PIPL) :exclamation:
 
 PIPL soll Rahmen schaffen, wie Unternehmen weltweit, in China als auch außerhalb, personenbezogene Daten verarbeiten, sammeln und weitergeben
 

@@ -198,6 +198,8 @@ Grundsatz :arrow_right: Bei Bedarf sollten die High-Level Ziele zu spezifischere
 - Verfügbarkeit: Daten sind in vereinbartem Rahmen zugänglich, zeitlich und örtlich :arrow_right: DDoS Angriff
   - Erreicht durch Redundanz
 
+CIA sind Ziele und keine Security Objectives.
+
 **(Extra, nicht Teil von CIA)**
 
 - nonrepudiation: Die Authentizität der Nachricht ist sicher: Man kann sich nicht als jemand anders ausgeben.

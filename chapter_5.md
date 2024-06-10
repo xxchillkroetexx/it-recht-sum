@@ -20,16 +20,16 @@ Politische und ökonomische Entscheidung gegen Staaten oder Organisationen mit d
 - Internationales Recht zu schützen
 - Verteidigung des internationalen Friedens
 
-## Relevanteste ISO Gesetze
+## Relevanteste ISO Gesetze :exclamation:
 
 | Gesetz | Beschreibung |
 | --- | --- |
 | Geschäftsgeheimnisgesetz (GeschGehG)| Sicherung wichtiger Geschäftsinformationen |
-| Telekommunikationsgesetz (TKG) | Regulierung des Wettbewerbs im Bereich der Telekommunikation |
+| Telekommunikationsgesetz (TKG) | Regulierung des Wettbewerbs im Bereich der Telekommunikation (Data in Transit) |
 | Betriebsverfassungsgesetz (BetrVG) | Gewährleistung von betrieblichen Interessenvertretung von AG und AN |
 | BSI-Gesetz | Regelungen in Bezug auf das Bundesamt für Sicherheit in der Informationstechnik |
 | Bürgerliches Gesetzbuch (BGB) | Regelungen der Rechtsbeziehung zwischen Privatpersonen. Abgrenzung gegenüber dem öffentlichen Recht |
-| Strafgesetzbuch (StGB) | Benennung Rechtsordnung, Verhalternsweisen, Strafmaß |
+| Strafgesetzbuch (StGB) | Benennung Rechtsordnung, Verhaltensweisen, Strafmaß |
 
 ## Geschäftsgeheimnisgesetz (GeschGehG) :hammer:
 
@@ -93,7 +93,7 @@ Neuerungen:
 - Erforderlichkeit angemessene Geheimhaltungsmaßnahmen zu treffen, damit ein **rechtlich geschütztes Geheimnis vorliegt**
 - das allgemeine öffentliche Interesse zu schützen hebelt GeschGeh aus
 
-## Telekommunikationsgesetz (TKG) :hammer:
+## Telekommunikationsgesetz (TKG) :hammer: :exclamation:
 
 ### §1 Zweck des Gesetzes
 
@@ -135,11 +135,11 @@ Brief-, Post-, und Fernmeldegeheimnis sind unverletzlich
   - oder Illegale Anlage besitz
 - Bei Fahrlässigkeit bis 1 Jahr oder Geldstrafe
 
-## Telemediengesetz (TMG) :hammer:
+## Telemediengesetz (TMG) :hammer: :exclamation:
 
 ### §1 Anwendungsbereich
 
-Gilt für Informations- und Kommunikationsdienste (Diensteanbieter) :arrow_right: Data On Rest
+Gilt für Informations- und Kommunikationsdienste (Diensteanbieter) :arrow_right: Data at Rest
 
 Grundsätze:
 
@@ -309,3 +309,5 @@ GNU Affero General Public License: Software die über Netzwerk ausgeführt wird
 Verwendung von OpenSource je nach Anwendungsfall entscheiden. Bei kritischen Geschäftsprozessen lohnt es sich meistens nicht. Wenn z.B. Notepad++, dann unkritisch und praktisch.
 
 Wenn Teil einer Wertschöpfungskette, kann Schaden durch Fehlende Funktion oder Fehlfunktion höher sein, als von vornherein ein lizenziertes Produkt zu verwenden.
+
+# AI Act
