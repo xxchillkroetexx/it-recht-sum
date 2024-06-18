@@ -89,12 +89,9 @@ flowchart LR
 
 ## ISMS Scope festlegen :exclamation:
 
-- Geographischer Scope
-- Produktionsstandorte
-- Organisationen
-- Rollen
-- Verfahren
-- Prozesse
+- Geographisch: Produktionsstandorte
+- Organisatorisch: Rollen
+- Prozesse & Verfahren
 
 ## GAP Analyse :exclamation:
 
