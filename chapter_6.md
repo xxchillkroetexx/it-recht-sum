@@ -1,6 +1,6 @@
 # 6 Zero Trust
 
-## 6.1 Incident Management:exclamation:
+## 6.1 Incident Management :exclamation:
 
 ## ISO 27001, A.16 InfoSec Incident Management :hammer: 
 
